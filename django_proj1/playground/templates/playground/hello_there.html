@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Hello, people</title> {% load static %}
+         <link rel="stylesheet" type="text/css" href="{% static 'playground/site.css' %}" />
+        <body>
+                Hi there, <span class="message"> {{name}} </span> It's {{date}}
+        </body>
+    </head>
+</html>
